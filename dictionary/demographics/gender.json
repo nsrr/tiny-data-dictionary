@@ -2,6 +2,7 @@
   "value": "gender",
   "display_name": "Gender",
   "description": "Gender as reported by Parent Cohort",
-  "type": "chioces",
+  "type": "choices",
   "domain": "gender"
+}
 }
