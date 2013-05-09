@@ -8,4 +8,12 @@ An example Data Dictionary in JSON format.
 
 ### Testing
 
-To run tests type `ruby test/test_variables`.
+Prerequisites: [Ruby Installed](https://github.com/remomueller/documentation), using RVM on *nix type machines, and RubyInstaller on Windows machines
+
+1. Use bundler to download required gems:
+
+`bundle install`
+
+2. Run tests using:
+
+`bundle exec rake`

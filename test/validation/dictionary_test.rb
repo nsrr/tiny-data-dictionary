@@ -19,16 +19,6 @@ class DictionaryTest < Test::Unit::TestCase
     Dir.glob("dictionary/**/*.json")
   end
 
-  def file_valid_string(file)
-    result = "#{file}"
-    if (!!JSON.parse(File.read(file)) rescue false)
-      result += " is valid JSON"
-    else
-      result += " is not valid JSON"
-    end
-    result
-  end
-
   def file_valid_variable_type(file)
     valid_variable_types = ['identifier', 'choices', 'integer', 'numeric']
     result = "#{file}"
