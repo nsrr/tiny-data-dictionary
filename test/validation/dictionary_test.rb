@@ -36,7 +36,7 @@ class DictionaryTest < Test::Unit::TestCase
       if valid_variable_types.include?(json["type"])
         result += " has valid variable type"
       else
-        result += " variable type #{json["type"].inspect} is not a valid variable type: #{valid_variable_types}"
+        result += " variable type #{json["type"]} is not a valid variable type: [#{valid_variable_types.join(", ")}]"
       end
     else
       result += " is not valid JSON"
