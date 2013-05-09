@@ -1,0 +1,6 @@
+{
+  "value": "participant_id",
+  "display_name": "Participant ID",
+  "description": "Participant Identification Number",
+  "type": "identifier"
+}
