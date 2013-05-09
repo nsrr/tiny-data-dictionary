@@ -1,37 +1,20 @@
 # This file will highlight json file formats that contain errors
 require 'test_helper'
 
+VALID_VARIABLE_TYPES = ['identifier', 'choices', 'integer', 'numeric']
+
 class DictionaryTest < Test::Unit::TestCase
 
-  def test_check_for_invalid_variable_types
-    dictionary_files.each do |file|
-      assert_equal "#{file} has valid variable type", file_valid_variable_type(file)
-    end
-  end
+  Dir.glob("dictionary/**/*.json").each do |file|
 
-  def test_valid_json
-    dictionary_files.each do |file|
-      assert_equal "#{file} is valid JSON", file_valid_string(file)
+    define_method("test_json: "+file) do
+      assert_equal true, (!!JSON.parse(File.read(file)) rescue false)
     end
-  end
 
-  def dictionary_files
-    Dir.glob("dictionary/**/*.json")
-  end
-
-  def file_valid_variable_type(file)
-    valid_variable_types = ['identifier', 'choices', 'integer', 'numeric']
-    result = "#{file}"
-    if (json = JSON.parse(File.read(file)) rescue false)
-      if valid_variable_types.include?(json["type"])
-        result += " has valid variable type"
-      else
-        result += " variable type #{json["type"]} is not a valid variable type: [#{valid_variable_types.join(", ")}]"
-      end
-    else
-      result += " is not valid JSON"
+    define_method("test_variable_type: "+file) do
+      assert_equal true, (VALID_VARIABLE_TYPES.include?(JSON.parse(File.read(file))["type"]) rescue false)
     end
-    result
+
   end
 
 end
