@@ -1,0 +1,7 @@
+{
+  "value": "ethnicity",
+  "display_name": "Ethnicity",
+  "description": "Ethnicity as reported by Parent Cohort",
+  "type": "choices",
+  "domain": "ethnicity"
+}

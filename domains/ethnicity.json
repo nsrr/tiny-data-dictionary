@@ -1,0 +1,12 @@
+[
+  {
+    "value": "1",
+    "display_name": "Hispanic or Latino",
+    "description": "Hispanic or Latino Ethnicity"
+  },
+  {
+    "value": "2",
+    "display_name": "Not Hispanic or Latino",
+    "description": "Not Hispanic or Latino Ethnicity"
+  }
+]
