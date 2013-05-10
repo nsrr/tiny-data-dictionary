@@ -9,15 +9,15 @@ Data Dictionary currently comprised of two primary folders: `variables` and `dom
 `variables` contains a folder hierarchy with folders that contain `.json` files
 
 - Each `.json` file provides information about the variable:
-  - `id`:`string`:**`required`**
+  - `id`:`string`:**required**
     - The unique ID for the variable
-  - `display_name`:`string`:**`required`**
+  - `display_name`:`string`:**required**
     - Used to display the variable across different systems
-  - `description`:`string`:`optional`
+  - `description`:`string`:*optional*
     - Additional information about the variable
-  - `type`:`string`:**`required`**
+  - `type`:`string`:**required**
     - What type of data the variable represents
-  - `domain`:`string`:`optional`
+  - `domain`:`string`:*optional*
     - Specific domain of the variable used for variables with discrete options and/or missing codes
 
 #### Domains
@@ -26,11 +26,11 @@ Data Dictionary currently comprised of two primary folders: `variables` and `dom
 
 - Each `.json` files provides information about the domain:
   - An array of options, each option has:
-    - `value`:**`required`**
+    - `value`:**required**
       - The value mapped in the corresponding data
-    - `display_name`:`string`:**`required`**
+    - `display_name`:`string`:**required**
       - Used to display the option
-    - `description`:`string`:`optional`
+    - `description`:`string`:*optional*
       - Additional information about the option
 
 ### Enhancements
@@ -38,3 +38,4 @@ Data Dictionary currently comprised of two primary folders: `variables` and `dom
 - Added configuration for TravisCI Continuous Integration tests
 - Added tests for JSON validity of variables and domains
 - Added test to check presence/validity of variable type
+- Added a rake task to create CSVs of the JSON data dictionary
