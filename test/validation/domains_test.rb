@@ -1,7 +1,7 @@
 # This file will highlight json file formats that contain errors
 require 'test_helper'
 
-class DomainTest < Test::Unit::TestCase
+class DomainsTest < Test::Unit::TestCase
 
   Dir.glob("domains/**/*.json").each do |file|
 

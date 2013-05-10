@@ -1,5 +1,5 @@
 {
-  "value": "participant_id",
+  "id": "participant_id",
   "display_name": "Participant ID",
   "description": "Participant Identification Number as Reported by Parent Cohort",
   "type": "identifier"

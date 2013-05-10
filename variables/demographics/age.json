@@ -1,5 +1,5 @@
 {
-  "value": "age",
+  "id": "age",
   "display_name": "Age",
   "description": "Age at Time of Study",
   "type": "integer"
