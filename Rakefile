@@ -49,4 +49,32 @@ namespace :dd do
     puts "Data Dictionary Created in #{folder}"
   end
 
+  task :import do
+    puts ENV['CSV'].inspect
+    if File.exists?(ENV['CSV'])
+      CSV.parse( File.open(ENV['CSV'], 'r:iso-8859-1:utf-8'){|f| f.read}, headers: true ) do |line|
+        row = line.to_hash
+        next if row['COLUMN'] == ''
+        folder = File.join('variables', row['FOLDER'])
+        FileUtils.mkpath folder
+        hash = {}
+        hash['id'] = row['COLUMN']
+        hash['display_name'] = row['DISPLAY_NAME']
+        hash['description'] = row['DESCRIPTION'].to_s
+        hash['type'] = row['VARIABLE_TYPE']
+        hash['domain'] = row['DOMAIN'] if row['DOMAIN'] != '' and row['DOMAIN'] != nil
+        hash['units'] = row['UNITS'] if row['UNITS'] != '' and row['UNITS'] != nil
+        hash['calculation'] = row['CALCULATION'] if row['DOMAIN'] != '' and row['CALCULATION'] != nil
+        hash['labels'] = row['LABELS'].to_s.split(';') if row['LABELS'].to_s.split(';').size > 0
+
+        File.open(File.join(folder, row['COLUMN'].downcase + '.json'), 'w') do |file|
+          file.write(JSON.pretty_generate(hash))
+        end
+      end
+      puts "Data Dictionary Imported from CSV."
+    else
+      puts "Please specify a valid CSV file."
+    end
+  end
+
 end
