@@ -1,0 +1,6 @@
+{
+  "id": "prev_id",
+  "display_name": "Number of Previous MIs",
+  "description": "Number of MIs Previous to Baseline Visit",
+  "type": "integer"
+}
