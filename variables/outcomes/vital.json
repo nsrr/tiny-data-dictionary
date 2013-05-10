@@ -1,0 +1,8 @@
+{
+  "id": "vital",
+  "display_name": "Vital Status",
+  "description": "Vital Status",
+  "type": "choices",
+  "domain": "vital"
+}
+
