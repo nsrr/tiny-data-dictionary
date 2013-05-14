@@ -1,8 +1,3 @@
 source 'https://rubygems.org'
 
-gem 'rake'
-
-# Testing
-group :test do
-  gem 'turn', '~> 0.9.6'
-end
+gem 'spout', '~> 0.0.1.pre'

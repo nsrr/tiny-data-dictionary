@@ -36,7 +36,4 @@ Data Dictionary currently comprised of two primary folders: `variables` and `dom
 ### Enhancements
 - Initial Sample Data Dictionary in JSON format including variables and domains
 - Added configuration for TravisCI Continuous Integration tests
-- Added tests for JSON validity of variables and domains
-- Added test to check presence/validity of variable type
-- Added test to check if a domain referenced from a variable exists
-- Added a rake task to create CSVs of the JSON data dictionary
+- Test Data Dictionary using the Spout Gem
