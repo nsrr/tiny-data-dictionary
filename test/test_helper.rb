@@ -1,1 +1,1 @@
-require 'spout/test_helpers'
+require 'spout/tests'
