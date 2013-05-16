@@ -1,0 +1,6 @@
+{
+  "id": "mi",
+  "display_name": "Number of MIs Since Baseline",
+  "description": "Number of MIs Since Baseline",
+  "type": "integer"
+}

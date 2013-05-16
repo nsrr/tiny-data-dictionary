@@ -1,0 +1,6 @@
+{
+  "id": "revasc_proc",
+  "display_name": "Revascularization procedure since Baseline",
+  "description": "Number of Revascularization Procedures Since Baseline",
+  "type": "integer"
+}

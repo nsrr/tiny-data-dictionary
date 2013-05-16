@@ -1,0 +1,6 @@
+{
+  "id": "any_cvd",
+  "display_name": "Any CVD Since Baseline?",
+  "description": "Any Cardiovascular Disease (CVD) since Baseline",
+  "type": "choices"
+}

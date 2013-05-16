@@ -1,0 +1,6 @@
+{
+  "id": "prev_ang",
+  "display_name": "Angina prior to Baseline",
+  "description": "Number of Anginas Prior to Baseline",
+  "type": "integer"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "cabg15",
+  "display_name": "Self-reported CABG?",
+  "description": "Self-reported CABG (as reported on SHHS 1 baseline health interviews)",
+  "type": "choices"
+}

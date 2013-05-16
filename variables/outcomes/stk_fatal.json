@@ -1,0 +1,6 @@
+{
+  "id": "stk_fatal",
+  "display_name": "Fatal Stroke Since Baseline?",
+  "description": "Fatal Stroke Since Baseline?",
+  "type": "choices"
+}

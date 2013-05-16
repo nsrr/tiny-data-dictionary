@@ -1,0 +1,6 @@
+{
+  "id": "stroke",
+  "display_name": "Strokes Since Baseline",
+  "description": "Number of Strokes Since Baseline",
+  "type": "integer"
+}

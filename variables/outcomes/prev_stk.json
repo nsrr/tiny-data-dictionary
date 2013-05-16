@@ -1,0 +1,6 @@
+{
+  "id": "prev_stk",
+  "display_name": "Number of Previous Strokes",
+  "description": "Number of Strokes Prior to Baseline",
+  "type": "integer"
+}

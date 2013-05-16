@@ -1,0 +1,6 @@
+{
+  "id": "mip",
+  "display_name": "MI Procedures Since Baseline",
+  "description": "Number of Procedures Related to MI Since Baseline",
+  "type": "integer"
+}

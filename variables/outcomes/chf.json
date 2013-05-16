@@ -1,0 +1,6 @@
+{
+  "id": "chf",
+  "display_name": "CHF Since Baseline",
+  "description": "Number of Congestive Heart Failures (CHF) Since Baseline",
+  "type": "integer"
+}

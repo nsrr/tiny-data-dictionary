@@ -1,0 +1,6 @@
+{
+  "id": "ca15",
+  "display_name": "Self-reported Coronary Angioplasty?",
+  "description": "Self-reported coronary angioplasty (as reported in SHHS 1 baseline health interviews)",
+  "type": "choices"
+}

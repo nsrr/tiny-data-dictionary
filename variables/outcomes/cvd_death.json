@@ -1,0 +1,6 @@
+{
+  "id": "cvd_death",
+  "display_name": "Fatal CVD Since Baseline?",
+  "description": "Cardiovascular Disease (CVD) death",
+  "type": "choices"
+}

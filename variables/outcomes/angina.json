@@ -1,0 +1,6 @@
+{
+  "id": "angina",
+  "display_name": "Angina since baseline PSG",
+  "description": "Number of Anginas Since Baseline",
+  "type": "integer"
+}

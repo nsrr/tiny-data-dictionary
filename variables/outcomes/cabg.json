@@ -1,0 +1,6 @@
+{
+  "id": "cabg",
+  "display_name": "CABGs since Baseline",
+  "description": "Number of CABGs Since Baseline",
+  "type": "integer"
+}

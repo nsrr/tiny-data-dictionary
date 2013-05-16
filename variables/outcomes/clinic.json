@@ -1,0 +1,6 @@
+{
+  "id": "clinic",
+  "display_name": "Collection Site",
+  "description": "Field site ID",
+  "type": "choices"
+}

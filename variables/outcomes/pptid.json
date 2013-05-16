@@ -1,0 +1,6 @@
+{
+  "id": "pptid",
+  "display_name": "Participant Records",
+  "description": "Unique participant ID number",
+  "type": "identifier"
+}

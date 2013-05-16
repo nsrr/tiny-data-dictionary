@@ -1,0 +1,6 @@
+{
+  "id": "ptca",
+  "display_name": "PTCAs since Baseline",
+  "description": "Number of PTCAs Since Baseline",
+  "type": "integer"
+}
