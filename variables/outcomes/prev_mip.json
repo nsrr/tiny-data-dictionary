@@ -1,0 +1,6 @@
+{
+  "id": "prev_mi",
+  "display_name": "Number of Previous MI Procedures",
+  "description": "Number of Procedures Related to Heart Attack Prior to Baseline",
+  "type": "integer"
+}
