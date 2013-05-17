@@ -9,22 +9,22 @@ An example Data Dictionary in JSON format.
 
 Prerequisites: [Ruby Installed](https://github.com/remomueller/documentation), using RVM on *nix type machines, and RubyInstaller on Windows machines
 
-1. Install dependencies using bundler:
+- Install dependencies using bundler:
 
 `bundle install`
 
-2. Generate the CSV from the repository:
+- Generate the CSV from the repository:
 
-`bundle exec rake dd:create`
+`spout export`
 
-The Data Dictionary will be created in the `dd` folder in a versioned subfolder. EX: `dd/0.1.0/[variables|domains].csv`
+The Data Dictionary will be created in the `dd` folder in a versioned subfolder. EX: `dd/1.0.0/[variables|domains].csv`
 
 ### Testing
 
-1. Use bundler to download required gems:
+- Use bundler to download required gems:
 
 `bundle install`
 
-2. Run tests using:
+- Run tests using:
 
-`bundle exec rake`
+`spout test`
