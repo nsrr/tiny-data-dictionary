@@ -1,6 +1,6 @@
 {
   "id": "age",
   "display_name": "Age",
-  "description": "Age at Time of Study",
+  "description": "Age at Time of Study collected at First Visit",
   "type": "integer"
 }
