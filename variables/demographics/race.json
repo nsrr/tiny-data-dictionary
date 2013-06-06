@@ -1,0 +1,7 @@
+{
+  "id": "race",
+  "display_name": "Race",
+  "description": "Race as reported by Parent Cohort",
+  "type": "choices",
+  "domain": "race"
+}
