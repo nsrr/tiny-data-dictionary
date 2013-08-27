@@ -2,5 +2,6 @@
   "id": "obesitystatus",
   "display_name": "Obesity Status",
   "description": "BBMI ge 30",
-  "type": "choices"
+  "type": "choices",
+  "domain": "obesitystatus"
 }

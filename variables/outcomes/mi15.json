@@ -2,5 +2,6 @@
   "id": "mi15",
   "display_name": "Self-reported MI?",
   "description": "Self-reported MI (as reported on SHHS 1 baseline health interviews)",
-  "type": "choices"
+  "type": "choices",
+  "domain": "yesnod"
 }

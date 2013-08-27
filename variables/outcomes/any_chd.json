@@ -2,5 +2,6 @@
   "id": "any_chd",
   "display_name": "Any CHD Since Baseline?",
   "description": "Any Coronary Heart Disease (CHD) since Baseline",
-  "type": "choices"
+  "type": "choices",
+  "domain": "yesno01"
 }

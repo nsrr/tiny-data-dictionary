@@ -2,5 +2,6 @@
   "id": "mi_fatal",
   "display_name": "Fatal MI Since Baseline?",
   "description": "Fatal MI since Baseline?",
-  "type": "choices"
+  "type": "choices",
+  "domain": "yesno01"
 }

@@ -2,5 +2,6 @@
   "id": "stroke15",
   "display_name": "Self-reported Stroke?",
   "description": "Self-reported stroke (as reported on SHHS 1 baseline health interviews)",
-  "type": "choices"
+  "type": "choices",
+  "domain": "yesnod"
 }
