@@ -1,5 +1,5 @@
 {
-  "id": "obesity status",
+  "id": "obesitystatus",
   "display_name": "Obesity Status",
   "description": "BBMI ge 30",
   "type": "choices"
